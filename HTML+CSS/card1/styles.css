@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: #0f0c29;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  height: 500px;
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 10px 10px 10px #000000;
+  transition: 1s;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 10px #000000;
+  cursor:pointer;
+  scale: 1.05;
+
+}
+
+.card img {
+  height: 120px;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+.item2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1f1c36;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item3 {
+  font-size: 15px;
+  font-weight: 510;
+  color: #1f1c36;
+  text-align: center;
+  padding: 10px;
+}
+
+.item4 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-height: 50px;
+  background-color: bisque;
+  justify-content: space-around;
+  border-radius: 20px;
+  width: 90%;
+  margin: 0 5%;
+}
+
+.item4-1 {
+  display: flex;
+  align-items: center;
+}
+
+.item4-1 img {
+  height: 40px;
+  width: 40px;
+}
+
+.item4-1 p {
+  margin: 0 10px;
+}
+
+.item5 {
+  display: flex;
+  justify-content: center;
+}
+
+.item5 button {
+  background-color: #1f1c36;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 70%;
+  box-shadow: 5px 5px 5px #520b5d;
+  transition: 0.5s;
+}
+
+.item5 button:hover {
+  background-color: #520b5d;
+  box-shadow: 5px 5px 5px #520b5d;
+  cursor:pointer;
+  scale: 1.05;
+}
+
+.item6 {
+  display: flex;
+  justify-content: center;
+}
+
+.item6 a {
+  text-decoration: none;
+  color: #1f1c36;
+    margin-bottom: 20px;
+}
